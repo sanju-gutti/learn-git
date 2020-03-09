@@ -1,17 +1,10 @@
-import java.util.*;
+public class HMap {
 
-public class HMap
-{
-    public static void main(String args[])
-    {
-        HashMap<Integer,String> hm = new HashMap<Integer, String>();
-        hm.put(100,"Sanju");
-        hm.put(101,"Saanju");
-        System.out.println(hm.entrySet());
+    public static void main(String[] args) {
 
-        for(Map.Entry m:hm.entrySet())
-        {
-            System.out.println(m.getKey()+" "+m.getValue());
-        }
+        int num1 = 5, num2 = 15, sum;
+        sum = num1 + num2;
+
+        System.out.println("Sum of these numbers: "+sum);
     }
 }
