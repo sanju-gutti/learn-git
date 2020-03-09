@@ -4,7 +4,7 @@ public class HMap {
 
         int num1 = 5, num2 = 15, sum;
         sum = num1 + num2;
-      System.out.println("sanju"+sum);
 
+        System.out.println("stuff"+sum);
     }
 }
